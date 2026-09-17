@@ -31,6 +31,10 @@ emisor, está en `docs/perfil_negocio_fuentes.md`.
 | ISAGEN | 3,65x | 1,7x | 5 agresivo | razonable | bb- | 2,2% | 4,79 (B+) | 5,5% |
 | CELSIA | 3,11x | 2,4x | 4 significativo | débil | bb- | 2,2% | 4,03 (B) | 5,5% |
 
+Las probabilidades a un año quedan así con el scorecard de S&P: Enel 0,2%, EPM e ISA 0,5%, ISAGEN y Celsia 2,2%. Con Altman: EPM 0,2%, Enel 0,5%, ISA 2,2%, ISAGEN y Celsia 5,5%. Son tasas anuales, no acumuladas. El 2,2% de ISAGEN quiere decir que, históricamente, cerca de una de cada cuarenta y cinco empresas con esa clasificación incumplió dentro del año siguiente, contra una de cada quinientas en el caso de Enel.
+
+La frontera relevante está en bbb-, donde termina el grado de inversión. Enel y EPM quedan por encima con los dos métodos. ISA queda justo en el borde con S&P, bbb- / bb+, y por debajo con Altman, BB. ISAGEN y Celsia quedan en grado especulativo, bb-, y son las dos últimas con los dos modelos. La distancia entre el primero y el último es de once veces con S&P y de más de veinticinco con Altman.
+
 Tres cosas que salieron del análisis:
 
 ISA es la más endeudada del grupo con 4,27 veces EBITDA y aun así queda tercera en riesgo. Su
