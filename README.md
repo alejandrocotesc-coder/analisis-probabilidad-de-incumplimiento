@@ -5,6 +5,12 @@ ISA, ISAGEN, EPM, Celsia y Enel Colombia. Periodo 2015-2025.
 Prueba técnica para la práctica 2027-1, Dirección Mercado de Deuda y Capital, Bancolombia.
 Alejandro Cotes, Economía y Administración de Empresas, Universidad de los Andes.
 
+## Video
+
+[`video-presentacion.mp4`](video-presentacion.mp4), 6 minutos 19 segundos. Se reproduce en el
+navegador dando clic en el archivo, sin necesidad de descargarlo. Las diapositivas son
+[`Presentacion_Prueba_Bancolombia.pptx`](Presentacion_Prueba_Bancolombia.pptx), en esta misma carpeta.
+
 ## Qué se hizo
 
 Estimé la probabilidad de incumplimiento a un año de los cinco emisores partiendo de sus
@@ -31,13 +37,27 @@ emisor, está en `docs/perfil_negocio_fuentes.md`.
 | ISAGEN | 3,65x | 1,7x | 5 agresivo | razonable | bb- | 2,2% | 4,79 (B+) | 5,5% |
 | CELSIA | 3,11x | 2,4x | 4 significativo | débil | bb- | 2,2% | 4,03 (B) | 5,5% |
 
-Las probabilidades a un año quedan así con el scorecard de S&P: Enel 0,2%, EPM e ISA 0,5%, ISAGEN y Celsia 2,2%. Con Altman: EPM 0,2%, Enel 0,5%, ISA 2,2%, ISAGEN y Celsia 5,5%. Son tasas anuales, no acumuladas. El 2,2% de ISAGEN quiere decir que, históricamente, cerca de una de cada cuarenta y cinco empresas con esa clasificación incumplió dentro del año siguiente, contra una de cada quinientas en el caso de Enel.
+Las probabilidades a un año quedan así con el scorecard de S&P: Enel 0,2%, EPM e ISA 0,5%, ISAGEN y
+Celsia 2,2%. Con Altman: EPM 0,2%, Enel 0,5%, ISA 2,2%, ISAGEN y Celsia 5,5%. Son tasas anuales, no
+acumuladas. El 2,2% de ISAGEN quiere decir que, históricamente, cerca de una de cada cuarenta y cinco
+empresas con esa clasificación incumplió dentro del año siguiente, contra una de cada quinientas en el
+caso de Enel.
 
-La frontera relevante está en bbb-, donde termina el grado de inversión. Enel y EPM quedan por encima con los dos métodos. ISA queda justo en el borde con S&P, bbb- / bb+, y por debajo con Altman, BB. ISAGEN y Celsia quedan en grado especulativo, bb-, y son las dos últimas con los dos modelos. La distancia entre el primero y el último es de once veces con S&P y de más de veinticinco con Altman.
+La frontera relevante está en bbb-, donde termina el grado de inversión. Enel y EPM quedan por encima
+con los dos métodos. ISA queda justo en el borde con S&P, bbb- / bb+, y por debajo con Altman, BB.
+ISAGEN y Celsia quedan en grado especulativo, bb-, y son las dos últimas con los dos modelos. La
+distancia entre el primero y el último es de once veces con S&P y de más de veinticinco con Altman.
+
+Dos advertencias sobre estos números. El nivel absoluto sale de tablas de incumplimiento histórico
+global, no colombiano, así que se lee como orden de magnitud y no como pronóstico; el orden entre los
+cinco sí sale de sus propias cifras. Y falta el paso 5 de la metodología de S&P, el tope por riesgo
+soberano, que solo podría bajar las clasificaciones y nunca subirlas, así que estas probabilidades son
+un piso.
 
 Tres cosas que salieron del análisis:
 
-ISA es la más endeudada del grupo con 4,27 veces EBITDA y aun así queda tercera en riesgo. Su
+ISA es la más endeudada del grupo con 4,27 veces EBITDA y aun así queda tercera en riesgo, con 0,5%
+contra 2,2% de ISAGEN y Celsia. Su
 deuda es la más barata de las cinco y su negocio es transmisión regulada, así que el
 apalancamiento por sí solo daría un orden distinto al que da el scorecard completo.
 
@@ -101,12 +121,13 @@ riesgo antes que exagerarlo.
 ## Estructura
 
 ```
-notebooks/        extracción y análisis
-data/xbrl/        los 55 estados financieros, un ZIP por emisor
-data/procesada/   tablas que generan los notebooks
-figuras/          figuras de la presentación
-docs/             justificación del perfil de negocio con fuentes
-presentacion/     presentación del video
+video-presentacion.mp4              el video, 6:19
+Presentacion_Prueba_Bancolombia.pptx las diapositivas
+notebooks/                          extracción y análisis
+data/xbrl/                          los 55 estados financieros, un ZIP por emisor
+data/procesada/                     tablas que generan los notebooks
+figuras/                            figuras de la presentación
+docs/                               justificación del perfil de negocio con fuentes
 ```
 
 ## Fuentes
