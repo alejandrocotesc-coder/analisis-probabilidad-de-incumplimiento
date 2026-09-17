@@ -1,6 +1,6 @@
 # Datos procesados
 
-Esta carpeta se llena sola al correr los notebooks, en este orden:
+Estas tablas las generan los notebooks, en este orden:
 
 | Archivo | Lo genera | Contenido |
 |---|---|---|
