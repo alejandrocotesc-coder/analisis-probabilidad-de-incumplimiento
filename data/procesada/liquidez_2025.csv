@@ -1,0 +1,6 @@
+emisor,caja,ffo,fuentes_12m,deuda_corto_plazo,capex,dividendos_pagados,usos_12m,liq_ratio,liq_ratio_24m,resiste_ebitda_-15%,liquidez,razon_corriente,cash_ratio,ancla_sp,ancla_con_liquidez,liq_ratio_con_lineas,liq_ratio_sin_dividendos
+ISA,4.47,4.86,9.33,1.75,1.71,2.33,5.79,1.61,1.22,True,fuerte,2.55,0.97,bbb-/bb+,bbb-/bb+,1.61,2.7
+ISAGEN,0.17,1.11,1.28,0.89,0.1,0.49,1.48,0.86,0.72,False,débil,1.46,0.1,bb-,b- (tope liquidez),0.86,1.29
+EPM,4.34,7.02,11.36,4.28,5.53,2.84,12.65,0.9,0.64,False,débil,1.32,0.34,bbb/bbb-,b- (tope liquidez),0.9,1.16
+CELSIA,0.28,0.83,1.11,1.08,1.33,0.29,2.7,0.41,0.38,False,débil,0.76,0.09,bb-,b- (tope liquidez),0.41,0.46
+ENEL,1.15,5.19,6.34,1.45,3.0,2.06,6.51,0.97,0.85,False,débil,0.77,0.23,a+/a,b- (tope liquidez),1.67,1.42

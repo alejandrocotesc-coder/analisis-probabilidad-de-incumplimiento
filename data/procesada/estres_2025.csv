@@ -1,0 +1,21 @@
+escenario,emisor,deuda_ebitda,cobertura,alerta
+Base 2025,ISA,4.27,3.16,False
+Base 2025,ISAGEN,3.65,1.73,True
+Base 2025,EPM,2.61,3.5,False
+Base 2025,CELSIA,3.11,2.37,False
+Base 2025,ENEL,0.34,5.14,False
+EBITDA -20% (El Niño),ISA,5.33,2.52,True
+EBITDA -20% (El Niño),ISAGEN,4.56,1.39,True
+EBITDA -20% (El Niño),EPM,3.26,2.8,False
+EBITDA -20% (El Niño),CELSIA,3.89,1.89,True
+EBITDA -20% (El Niño),ENEL,0.42,4.11,False
+Intereses +30% (tasas),ISA,4.27,2.43,False
+Intereses +30% (tasas),ISAGEN,3.65,1.33,True
+Intereses +30% (tasas),EPM,2.61,2.69,False
+Intereses +30% (tasas),CELSIA,3.11,1.82,True
+Intereses +30% (tasas),ENEL,0.34,3.96,False
+Ambos golpes,ISA,5.33,1.94,True
+Ambos golpes,ISAGEN,4.56,1.07,True
+Ambos golpes,EPM,3.26,2.15,False
+Ambos golpes,CELSIA,3.89,1.46,True
+Ambos golpes,ENEL,0.42,3.16,False

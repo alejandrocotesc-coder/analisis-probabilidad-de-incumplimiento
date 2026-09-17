@@ -1,0 +1,6 @@
+emisor,deuda_ebitda,cobertura,tasa_implicita_%,perfil_financiero,perfil_negocio,ancla_supuesto,pd_supuesto_%,ancla_sp,pd_1_anio_%,fuentes_usos_12m,liquidez,cash_ratio,cobertura_ambos_golpes
+ENEL,0.34,5.14,57.61,modest,strong,bbb+,0.5,a+/a,0.2,0.97,débil,0.23,3.16
+EPM,2.61,3.5,10.96,intermediate,satisfactory,bbb/bbb-,0.5,bbb/bbb-,0.5,0.9,débil,0.34,2.15
+ISA,4.27,3.16,7.43,significant,satisfactory,bbb-/bb+,0.5,bbb-/bb+,0.5,1.61,fuerte,0.97,1.94
+ISAGEN,3.65,1.73,15.82,aggressive,fair,bb,2.2,bb-,2.2,0.86,débil,0.1,1.07
+CELSIA,3.11,2.37,13.57,significant,weak,bbb-/bb+,0.5,bb-,2.2,0.41,débil,0.09,1.46
