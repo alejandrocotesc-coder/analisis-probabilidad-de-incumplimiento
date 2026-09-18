@@ -101,11 +101,6 @@ Los controles de calidad detectaron partidas mal etiquetadas en el XBRL de dos e
 notebook corrige con las cifras de sus propias notas, y un ingreso extraordinario de ISA en 2016
 (RBSE, 5,5 billones) que se resta porque de otro modo distorsiona la serie completa.
 
-Dos cosas que se descartaron: estimar un modelo propio de default sobre esta muestra, porque con
-cinco emisores y cero incumplimientos no hay con qué estimarlo; y la PD implícita en spreads de
-mercado, porque los bonos de estos emisores son ilíquidos. Altman sí se aplica porque sus
-coeficientes están publicados.
-
 ## Limitaciones
 
 - La clasificación no es una calificación. Falta el paso 5 de la metodología de S&P, el tope por
