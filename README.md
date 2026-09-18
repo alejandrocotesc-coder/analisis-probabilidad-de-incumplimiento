@@ -7,8 +7,9 @@ Alejandro Cotes, Economía y Administración de Empresas, Universidad de los And
 
 ## Video
 
-[`video-presentacion.mp4`](video-presentacion.mp4), 6 minutos 19 segundos. Se reproduce en el
-navegador dando clic en el archivo, sin necesidad de descargarlo. Las diapositivas son
+https://github.com/user-attachments/assets/d9f22318-4a11-4029-a2dd-890f54697eff
+
+[`video-presentacion.mp4`](video-presentacion.mp4), 6 minutos 19 segundos. Las diapositivas son
 [`Presentacion_Prueba_Bancolombia.pptx`](Presentacion_Prueba_Bancolombia.pptx), en esta misma carpeta.
 
 ## Qué se hizo
