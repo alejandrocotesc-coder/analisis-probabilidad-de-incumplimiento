@@ -27,7 +27,7 @@ El trabajo tiene tres partes:
 
 Todos los umbrales, pesos y matrices vienen de metodologías publicadas. Las fuentes están
 listadas al final. El detalle de cada puntaje cualitativo del perfil de negocio, emisor por
-emisor, está en `docs/perfil_negocio_fuentes.md`.
+emisor, está en [`docs/perfil_negocio_fuentes.md`](docs/perfil_negocio_fuentes.md).
 
 ## Resultados (cifras a diciembre de 2025)
 
@@ -77,16 +77,17 @@ frente al activo.
 
 ## Cómo reproducirlo
 
-1. Descomprimir los cinco archivos de `data/xbrl/` en carpetas con el nombre de cada emisor.
+1. Descomprimir los cinco archivos de [`data/xbrl/`](data/xbrl) en carpetas con el nombre de cada emisor.
    Son los 55 estados financieros anuales consolidados del SIMEV / RNVE.
 2. Instalar dependencias: `pip install -r requirements.txt`
-3. Correr `notebooks/01_extraccion_xbrl.ipynb` y después `notebooks/02_analisis_ratios.ipynb`,
+3. Correr [`notebooks/01_extraccion_xbrl.ipynb`](notebooks/01_extraccion_xbrl.ipynb) y después
+   [`notebooks/02_analisis_ratios.ipynb`](notebooks/02_analisis_ratios.ipynb),
    en ese orden. Hay que ajustar la variable `RUTA` de cada uno a la carpeta de datos.
 
 Los notebooks están escritos para Google Colab y montan Drive en la primera celda. Para
 correrlos localmente basta con borrar esa celda.
 
-Los CSV de `data/procesada/` y las figuras de `figuras/` se generan solos.
+Los CSV de [`data/procesada/`](data/procesada) y las figuras de [`figuras/`](figuras) se generan solos.
 
 ## Notas sobre la extracción
 
@@ -100,10 +101,14 @@ Los controles de calidad detectaron partidas mal etiquetadas en el XBRL de dos e
 notebook corrige con las cifras de sus propias notas, y un ingreso extraordinario de ISA en 2016
 (RBSE, 5,5 billones) que se resta porque de otro modo distorsiona la serie completa.
 
+Dos cosas que se descartaron: estimar un modelo propio de default sobre esta muestra, porque con
+cinco emisores y cero incumplimientos no hay con qué estimarlo; y la PD implícita en spreads de
+mercado, porque los bonos de estos emisores son ilíquidos. Altman sí se aplica porque sus
+coeficientes están publicados.
 
 ## Limitaciones
 
-- Falta el paso 5 de la metodología de S&P, el tope por
+- La clasificación no es una calificación. Falta el paso 5 de la metodología de S&P, el tope por
   riesgo soberano, que requiere un juicio sobre la posición del emisor frente al soberano.
 - Las probabilidades son tasas de default históricas globales, no colombianas.
 - Los umbrales de S&P son globales y se aplican a emisores endeudados a tasas colombianas.
@@ -124,7 +129,7 @@ Presentacion_Prueba_Bancolombia.pptx las diapositivas
 notebooks/                          extracción y análisis
 data/xbrl/                          los 55 estados financieros, un ZIP por emisor
 data/procesada/                     tablas que generan los notebooks
-figuras/                            figuras de la presentación
+figuras/                            figuras que generan los notebooks
 docs/                               justificación del perfil de negocio con fuentes
 ```
 
